@@ -44,7 +44,7 @@ class App extends React.Component<any, Partial<AppState>> {
             <label>Your city: <input type="text" name="city" className={"nes-input"} onChange={(input) => this.setState({ city: input.target.value})}/></label>
           </div>
           <div className={"nes-balloon from-left nes-pointer"}>
-            <a href="`https://www.losangelesforward.org/who-represents-me">Click here to find the email information of the representative you'd like to contact</a>
+            <a href="https://www.losangelesforward.org/who-represents-me">Click here to find the email information of the representative you'd like to contact</a>
           </div>
           <div>
             <label>Email to send to: <input type="text" name="email" className={"nes-input"} onChange={(input) => this.setState({ repEmail: input.target.value})}/></label>
