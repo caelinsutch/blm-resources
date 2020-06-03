@@ -66,6 +66,7 @@ class App extends React.Component<any, Partial<AppState>> {
             </p>
           </div>
           <p>
+            <a href="https://docs.google.com/document/d/1Z2wDq1OJqnYvCvzmvFhG_c--YG04fXsIli9bXRBs0g4/edit">Link to source Google doc</a>
             <a href="https://github.com/caelinsutch/blm-resources/issues">Report issues with this project</a>
           </p>
           <p>
