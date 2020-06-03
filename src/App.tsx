@@ -36,10 +36,7 @@ class App extends React.Component<any, Partial<AppState>> {
     return (
       <div className="content">
         <div className={"nes-container with-title is-centered"}>
-          <p className="title">Help the Cause</p>
-          <h1>
-            Send an email your representative!
-          </h1>
+          <p className="title">Help the Cause By Emailing Your CA Representatives!</p>
           <div>
             <label>Your Name: <input type="text" name="name" className={"nes-input"} onChange={(input) => this.setState({name: input.target.value})} /></label>
           </div>
@@ -60,14 +57,21 @@ class App extends React.Component<any, Partial<AppState>> {
               <button type="submit" className={"nes-btn is-primary"} onClick={this.sendEmail}>Send Email</button>
             </a>
           </p>
-          <div className="nes-container is-rounded text align-left with-title">
+          <div className="nes-container is-rounded text is-centered with-title">
             <p className="title">Finished Letter</p>
-            {
-              this.createMessage(this.state.name ?? '', this.state.city ?? '', this.state.extraMessage ?? '')
-            }
+            <p className={"align-left"}>
+              {
+                this.createMessage(this.state.name ?? '', this.state.city ?? '', this.state.extraMessage ?? '')
+              }
+            </p>
           </div>
           <p>
-            <a href="https://twitter.com/swyx">Report issues with this project</a>
+            <a href="https://github.com/caelinsutch/blm-resources/issues">Report issues with this project</a>
+          </p>
+          <p>
+            <a href="https://github.conm/caelinsutch">
+              <i className="nes-icon github is-large"/>
+            </a>
           </p>
         </div>
         <Snackbar ref = {this.snackbarRef} />\
