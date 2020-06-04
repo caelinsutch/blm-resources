@@ -10,16 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83243d1b-718f-4dd5-a5d6-172611b9ec03" name="Default Changelist" comment="Deploy time and inline css">
-      <change afterPath="$PROJECT_DIR$/src/pages/email.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/resources.tsx" afterDir="false" />
+    <list default="true" id="83243d1b-718f-4dd5-a5d6-172611b9ec03" name="Default Changelist" comment="Added base route">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/snackbar.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1591160037880</updated>
       <workItem from="1591160039147" duration="16094000" />
-      <workItem from="1591231058047" duration="4531000" />
+      <workItem from="1591231058047" duration="5014000" />
     </task>
     <task id="LOCAL-00001" summary="Updated site title, added source">
       <created>1591202925713</created>
@@ -120,7 +113,21 @@
       <option name="project" value="LOCAL" />
       <updated>1591231733267</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Deleted github ctions, added resources tab">
+      <created>1591285068764</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591285068764</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added base route">
+      <created>1591285172710</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1591285172710</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,7 +153,9 @@
     <MESSAGE value="Zoot noot" />
     <MESSAGE value="Tab" />
     <MESSAGE value="Deploy time and inline css" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deploy time and inline css" />
+    <MESSAGE value="Deleted github ctions, added resources tab" />
+    <MESSAGE value="Added base route" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added base route" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1761" y="979" width="317" height="243" key="#ESLint" timestamp="1591231076517">
@@ -169,18 +178,18 @@
       <screen x="0" y="34" width="3840" height="2126" />
     </state>
     <state x="1409" y="732" width="1022" height="737" key="SettingsEditor/0.34.3840.2126/3840.0.3840.2160@0.34.3840.2126" timestamp="1591231386917" />
-    <state x="1515" y="829" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1591231734306">
+    <state x="1515" y="829" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1591285173348">
       <screen x="0" y="34" width="3840" height="2126" />
     </state>
-    <state x="1515" y="829" width="800" height="543" key="Vcs.Push.Dialog.v2/0.34.3840.2126/3840.0.3840.2160@0.34.3840.2126" timestamp="1591231734306" />
+    <state x="1515" y="829" width="800" height="543" key="Vcs.Push.Dialog.v2/0.34.3840.2126/3840.0.3840.2160@0.34.3840.2126" timestamp="1591285173348" />
     <state x="1689" y="1010" width="461" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591231033739">
       <screen x="0" y="34" width="3840" height="2126" />
     </state>
     <state x="1689" y="1010" width="461" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.34.3840.2126/3840.0.3840.2160@0.34.3840.2126" timestamp="1591231033739" />
-    <state x="1612" y="820" width="616" height="554" key="find.popup" timestamp="1591161215366">
+    <state x="1612" y="820" width="616" height="554" key="find.popup" timestamp="1591285150697">
       <screen x="0" y="34" width="3840" height="2126" />
     </state>
-    <state x="1612" y="820" width="616" height="554" key="find.popup/0.34.3840.2126/3840.0.3840.2160@0.34.3840.2126" timestamp="1591161215366" />
+    <state x="1612" y="820" width="616" height="554" key="find.popup/0.34.3840.2126/3840.0.3840.2160@0.34.3840.2126" timestamp="1591285150697" />
     <state x="1699" y="841" width="432" height="518" key="refactoring.ChangeSignatureDialog" timestamp="1591165565590">
       <screen x="0" y="34" width="3840" height="2126" />
     </state>
@@ -189,9 +198,9 @@
       <screen x="0" y="34" width="3840" height="2126" />
     </state>
     <state x="1584" y="524" key="run.anything.popup/0.34.3840.2126/3840.0.3840.2160@0.34.3840.2126" timestamp="1591232099626" />
-    <state x="1583" y="534" width="672" height="678" key="search.everywhere.popup" timestamp="1591235010250">
+    <state x="1583" y="534" width="672" height="678" key="search.everywhere.popup" timestamp="1591285302404">
       <screen x="0" y="34" width="3840" height="2126" />
     </state>
-    <state x="1583" y="534" width="672" height="678" key="search.everywhere.popup/0.34.3840.2126/3840.0.3840.2160@0.34.3840.2126" timestamp="1591235010250" />
+    <state x="1583" y="534" width="672" height="678" key="search.everywhere.popup/0.34.3840.2126/3840.0.3840.2160@0.34.3840.2126" timestamp="1591285302404" />
   </component>
 </project>

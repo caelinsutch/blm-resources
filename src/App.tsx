@@ -13,7 +13,7 @@ function App() {
       <Nav/>
       <Switch>
         <Route path='/' component={EmailPage} exact/>
-        <Route path='/resources' component={ResourcesPage} exact/>
+        <Route path='/resources' component={ResourcesPage}/>
       </Switch>
     </main>
   )
