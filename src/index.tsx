@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basname='/blm-resources'>
       <App />
     </BrowserRouter>
   </React.StrictMode>,
