@@ -59,7 +59,7 @@ class App extends React.Component<any, Partial<AppState>> {
           </p>
           <div className="nes-container is-rounded text is-centered with-title">
             <p className="title">Finished Letter</p>
-            <p className={"align-left"}>
+            <p className={"align-left"} id={"copy-area"}>
               {
                 this.createMessage(this.state.name ?? '', this.state.city ?? '', this.state.extraMessage ?? '')
               }
@@ -82,8 +82,15 @@ class App extends React.Component<any, Partial<AppState>> {
 
 
   onSubmit = () => {
-    navigator.clipboard.writeText(this.createMessage(this.state.name ?? '', this.state.city ?? '', this.state.extraMessage ?? ''));
+    // navigator.clipboard.writeText(this.createMessage(this.state.name ?? '', this.state.city ?? '', this.state.extraMessage ?? ''));
     this._showSnackbarHandler();
+    const copyArea = document.getElementById('copy-area');
+    if (copyArea !== null) {
+      // @ts-ignore
+      window.getSelection().selectAllChildren(copyArea);
+    }
+    document.execCommand('copy');
+    // document.getElementById('copy-area').querySelector;
   }
 
   sendEmail = () => {
